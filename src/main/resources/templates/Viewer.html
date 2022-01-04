@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Bill</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Result</div>
+        <hr>
+        <tr>
+            <th>Name        : </th><td th:text="${itemname}"></td></br>
+            <th>Price       : </th><td th:text="${itemprice}"></td></br>
+            <th>Amount      : </th><td th:text="${itemamount}"></td></br>
+            <th>Total       : </th><td th:text="${totalprice}"></td></br>
+            <th>Final Total : </th><td th:text="${gettotal}"></td></br>
+            <th>Congrats! You have got a total discount of </th><td th:text="${discount}"></td></br>
+            <th></th><td th:text="${result}"></td></br>
+        </tr>   
+    </body>
+</html>
